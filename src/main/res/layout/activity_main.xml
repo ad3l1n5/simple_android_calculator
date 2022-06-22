@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/orange"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/numarul_1"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minHeight="50dp"
+        android:paddingTop="120dp"
+        android:textColorHint="#4E342E" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/numarul_2"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minHeight="50dp"
+        android:textColorHint="#4E342E" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/rezultat"
+        android:paddingTop="30dp"
+        android:textColorHint="#455A64"
+        android:textSize="30sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:weightSum="6">
+
+
+        <Button
+            android:id="@+id/buttonAdunare"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/adunare"
+            android:backgroundTint="@color/red"
+            android:textSize="25sp"
+            android:layout_marginStart="5dp"/>
+
+        <Button
+            android:id="@+id/buttonScadere"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/scadere"
+            android:backgroundTint="@color/red"
+            android:textSize="25sp"
+            android:layout_marginStart="5dp"/>
+
+        <Button
+            android:id="@+id/buttonInmultire"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="*"
+            android:backgroundTint="@color/red"
+            android:textSize="25sp"
+            android:layout_marginStart="5dp"/>
+
+        <Button
+            android:id="@+id/buttonImpartire"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/impartire"
+            android:backgroundTint="@color/red"
+            android:textSize="25sp"
+            android:layout_marginStart="5dp"/>
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:weightSum="6">
+
+
+        <Button
+            android:id="@+id/buttonMod"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/mod"
+            android:backgroundTint="@color/red"
+            android:textSize="25sp"
+            android:layout_marginStart="5dp"/>
+
+        <Button
+            android:id="@+id/buttonPutere"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/putere"
+            android:backgroundTint="@color/red"
+            android:textSize="25sp"
+            android:layout_marginStart="5dp"/>
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/clear"
+            android:backgroundTint="@color/red"
+            android:textSize="25sp"
+            android:layout_marginStart="5dp"/>
+
+        <Button
+            android:id="@+id/buttonEgal"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/egal"
+            android:backgroundTint="@color/red"
+            android:textSize="25sp"
+            android:layout_marginStart="5dp"/>
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="50dp"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/buttonFeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:backgroundTint="@color/blue"
+            android:layout_column="1"
+            android:text="@string/feedback" />
+    </GridLayout>
+
+</GridLayout>

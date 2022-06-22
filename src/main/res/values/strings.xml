@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SimpleCalculator</string>
+    <string name="introduceti_numerele">Introduceti numerele</string>
+    <string name="numarul_1">Numarul 1</string>
+    <string name="numarul_2">Numarul 2</string>
+    <string name="result">Result</string>
+    <string name="adunare">+</string>
+    <string name="scadere">-</string>
+    <string name="inmultire">*</string>
+    <string name="impartire">/</string>
+    <string name="mod">%</string>
+    <string name="putere">^</string>
+    <string name="clear">C</string>
+    <string name="egal">=</string>
+    <string name="feedback">Feedback</string>
+    <string name="rezultat">Rezultat</string>
+</resources>
